@@ -9,7 +9,7 @@ lazy val root = project
     sonatypeProfileName := "com.thesamet",
     name := "scalapb-grpcweb",
     libraryDependencies ++= Seq(
-      "com.thesamet.scalapb" %%% "scalapb-runtime" % "0.9.6"
+      "com.thesamet.scalapb" %%% "scalapb-runtime" % "0.9.7"
     ),
     scalacOptions += "-P:scalajs:sjsDefinedByDefault",
     npmDependencies in Compile += "grpc-web" -> "1.0.5"
