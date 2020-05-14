@@ -1,6 +1,6 @@
 scalaVersion := "2.12.10"
 
-val scalapbVersion = "0.10.2"
+val scalapbVersion = "0.10.3"
 
 ThisBuild / crossScalaVersions := Seq(Scala212, Scala213)
 
