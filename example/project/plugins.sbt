@@ -2,13 +2,13 @@ resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repos
 
 addSbtPlugin("org.portable-scala" % "sbt-scalajs-crossproject" % "1.0.0")
 
-addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.0.1")
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.1.0")
 
 addSbtPlugin("com.thesamet" % "sbt-protoc" % "0.99.29")
 
 addSbtPlugin("ch.epfl.scala" % "sbt-scalajs-bundler" % "0.17.0")
 
-addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.3.4")
+addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.4.0")
 
 libraryDependencies += "com.thesamet.scalapb" %% "compilerplugin" % "0.10.3"
 
